@@ -35,9 +35,9 @@ Adafruit_ESP8266 wifi(&softser, &Serial, ESP_RST);
 #define PORT     2525                // smtp2go port
 
 
-char EMAIL_FROM[] = "gorut@itu.edu.tr";
-char EMAIL_PASSWORD[] =  "YzJCR9sYIR";
-char EMAIL_TO[] = "suat.aksu@gmail.com";
+char EMAIL_FROM[] = "your email";
+char EMAIL_PASSWORD[] =  "your password";
+char EMAIL_TO[] = "destination email";
 char SUBJECT[]  = "Remaining Stock";
 char EMAIL_CONTENT[100] ;
 
